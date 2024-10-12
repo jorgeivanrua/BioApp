@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SERVAFAPP</title>
+  <meta name="description"
+    content="Sistema de gestión de equipos para SERVAF SA ESP, optimizando la administración de activos y mantenimiento.">
+  <meta name="keywords" content="gestión de equipos, mantenimiento, inventario, SERVAF">
+
+  <!-- Fuentes -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900">
+
+  <!-- Estilos de AdminLTE -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.1.0/dist/css/adminlte.min.css">
+
+  <!-- Estilos de Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+
+  <script
+    nonce="adff1777-9641-4eb7-bd42-13c543546a83">try { (function (w, d) { !function (j, k, l, m) { if (j.zaraz) console.error("zaraz is loaded twice"); else { j[l] = j[l] || {}; j[l].executed = []; j.zaraz = { deferred: [], listeners: [] }; j.zaraz._v = "5808"; j.zaraz._n = "adff1777-9641-4eb7-bd42-13c543546a83"; j.zaraz.q = []; j.zaraz._f = function (n) { return async function () { var o = Array.prototype.slice.call(arguments); j.zaraz.q.push({ m: n, a: o }) } }; for (const p of ["track", "set", "debug"]) j.zaraz[p] = j.zaraz._f(p); j.zaraz.init = () => { var q = k.getElementsByTagName(m)[0], r = k.createElement(m), s = k.getElementsByTagName("title")[0]; s && (j[l].t = k.getElementsByTagName("title")[0].text); j[l].x = Math.random(); j[l].w = j.screen.width; j[l].h = j.screen.height; j[l].j = j.innerHeight; j[l].e = j.innerWidth; j[l].l = j.location.href; j[l].r = k.referrer; j[l].k = j.screen.colorDepth; j[l].n = k.characterSet; j[l].o = (new Date).getTimezoneOffset(); if (j.dataLayer) for (const t of Object.entries(Object.entries(dataLayer).reduce(((u, v) => ({ ...u[1], ...v[1] })), {}))) zaraz.set(t[0], t[1], { scope: "page" }); j[l].q = []; for (; j.zaraz.q.length;) { const w = j.zaraz.q.shift(); j[l].q.push(w) } r.defer = !0; for (const x of [localStorage, sessionStorage]) Object.keys(x || {}).filter((z => z.startsWith("_zaraz_"))).forEach((y => { try { j[l]["z_" + y.slice(7)] = JSON.parse(x.getItem(y)) } catch { j[l]["z_" + y.slice(7)] = x.getItem(y) } })); r.referrerPolicy = "origin"; r.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(j[l]))); q.parentNode.insertBefore(r, q) };["complete", "interactive"].includes(k.readyState) ? zaraz.init() : j.addEventListener("DOMContentLoaded", zaraz.init) } }(w, d, "zarazData", "script"); window.zaraz._p = async mP => new Promise((mQ => { if (mP) { mP.e && mP.e.forEach((mR => { try { const mS = d.querySelector("script[nonce]"), mT = mS?.nonce || mS?.getAttribute("nonce"), mU = d.createElement("script"); mT && (mU.nonce = mT); mU.innerHTML = mR; mU.onload = () => { d.head.removeChild(mU) }; d.head.appendChild(mU) } catch (mV) { console.error(`Error executing script: ${mR}\n`, mV) } })); Promise.allSettled((mP.f || []).map((mW => fetch(mW[0], mW[1])))) } mQ() })); zaraz._p({ "e": ["(function(w,d){})(window,document)"] }); })(window, document) } catch (e) { throw fetch("/cdn-cgi/zaraz/t"), e; };</script>
+  <script>(function (w, d) { })(window, document)</script>
+  <script>(function (w, d) { w.zarazData.executed.push("Pageview"); })(window, document)</script>
+  <script>(function (w, d) { })(window, document)</script>
+
+  <!-- Estilos de FullCalendar -->
+  <link rel="stylesheet" href="https://unpkg.com/@fullcalendar/core/main.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@fullcalendar/daygrid/main.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@fullcalendar/timegrid/main.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@fullcalendar/interaction/main.css" />
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+  <div id="root"></div>
+
+  <!-- Scripts de FullCalendar -->
+  <script src="https://unpkg.com/@fullcalendar/core/main.js"></script>
+  <script src="https://unpkg.com/@fullcalendar/daygrid/main.js"></script>
+  <script src="https://unpkg.com/@fullcalendar/timegrid/main.js"></script>
+  <script src="https://unpkg.com/@fullcalendar/interaction/main.js"></script>
+
+  <!-- Script principal de React -->
+  <script src="index.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+{
+    "equipos": [
+      {
+        "nombre": "Equipo A",
+        "descripcion": "Descripción del Equipo A",
+        "estado": "Operativo",
+        "fechaAdquisicion": "2023-01-10T00:00:00Z",
+        "ubicacion": "Ubicación A",
+        "modelo": "Modelo A",
+        "marca": "Marca A",
+        "numeroSerie": "SN123456",
+        "costo": 1000,
+        "fechaUltimoMantenimiento": "2023-08-01T00:00:00Z",
+        "frecuenciaMantenimiento": "Mensual",
+        "responsable": "Juan Pérez",
+        "notasAdicionales": "Notas adicionales sobre el equipo A.",
+        "fechaInstalacion": "2023-01-12T00:00:00Z",
+        "vidaUtilEstimada": "5 años",
+        "condicionesUso": "Uso normal",
+        "documentacionAsociada": "Doc1.pdf",
+        "historialMantenimiento": [],
+        "categoria": "Categoría 1",
+        "capacidadEspecificaciones": "Especificaciones A",
+        "proveedor": "Proveedor A",
+        "contactoProveedor": "contacto@proveedora.com",
+        "garantia": "2 años",
+        "estadoFinanciero": "Bueno"
+      },
+      {
+        "nombre": "Equipo B",
+        "descripcion": "Descripción del Equipo B",
+        "estado": "En Mantenimiento",
+        "fechaAdquisicion": "2023-03-15T00:00:00Z",
+        "ubicacion": "Ubicación B",
+        "modelo": "Modelo B",
+        "marca": "Marca B",
+        "numeroSerie": "SN654321",
+        "costo": 1500,
+        "fechaUltimoMantenimiento": "2023-09-01T00:00:00Z",
+        "frecuenciaMantenimiento": "Trimestral",
+        "responsable": "Ana Gómez",
+        "notasAdicionales": "Notas adicionales sobre el equipo B.",
+        "fechaInstalacion": "2023-03-17T00:00:00Z",
+        "vidaUtilEstimada": "7 años",
+        "condicionesUso": "Uso intensivo",
+        "documentacionAsociada": "Doc2.pdf",
+        "historialMantenimiento": [],
+        "categoria": "Categoría 2",
+        "capacidadEspecificaciones": "Especificaciones B",
+        "proveedor": "Proveedor B",
+        "contactoProveedor": "contacto@proveedorb.com",
+        "garantia": "3 años",
+        "estadoFinanciero": "Regular"
+      }
+    ]
+  }
+  
